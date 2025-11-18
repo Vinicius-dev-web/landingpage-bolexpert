@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     transition: .2s;
+
+    /* font-family: "Google Sans Code", monospace; */
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
 }
 
 :root {
@@ -230,7 +233,7 @@ main {
 
         margin: 10rem 5rem;
 
-        h1{
+        h1 {
             margin: 10px 0px;
         }
 
@@ -238,7 +241,7 @@ main {
 
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
-            
+
             padding: 0px;
             margin: 10px 0px;
 
