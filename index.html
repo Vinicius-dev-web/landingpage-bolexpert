@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Página inicial</title>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h1>
+            Bol<span>expert</span>
+        </h1>
+
+        <ul>
+            <!-- <li>Sobre</li>
+            <li>Licenças</li>
+            <li>Contato</li> -->
+            <a href="#app-site" style="text-decoration: none;">
+                <li id="btn-system">Acessar sistema</li>
+            </a>
+        </ul>
+
+    </nav>
+
+    <header>
+
+        <div class="title-header" id="title-header">
+
+            <h1>Um novo modela para expandir o seu negócio</h1>
+
+            <p>Quer expandir seu negócio sem complicações e do forma totalmente gratuita? A bol<span>expert</span>
+                chegou para cumprir seu papel de forma fácil e eficiente. <a href="#app-site">Acesse agora</a> e utilize
+                o sistema já!</p>
+
+            <a href="#app-site" style="text-decoration: none;"><button>Acessar</button></a>
+
+        </div>
+
+        <img src="img/dataAwork.svg" alt="foto não encontrada">
+
+    </header>
+
+    <main>
+
+        <h1>Um jeito muito simples e prático para começar</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ducimus laborum, aut cupiditate
+            perspiciatis libero commodi eaque labore sapiente officia quidem excepturi ad quam rem quos expedita quasi.
+            Praesentium, accusamus.</p>
+
+        <section class="app-info" id="app-info">
+
+            <div class="card" id="card">
+
+                <img src="img/interface.svg" alt="sem foto">
+
+                <h2>Interface</h2>
+
+                <p>Um estilo simples e de fácil entendimento para o usuário.</p>
+
+            </div>
+
+            <div class="card" id="card">
+
+                <img src="img/dataAwork.svg" alt="sem foto">
+
+                <h2>Controle de produtos</h2>
+
+                <p>Monitore seus produtos estabelecendo a entrada e saída de itens como um caixa virtual.</p>
+
+            </div>
+
+            <div class="card" id="card">
+
+                <img src="img/server1.svg" alt="sem foto">
+
+                <h2>Servidor local</h2>
+
+                <p>Não se preocupe com o servidor caindo toda hora, seus produtos ficam salvos no próprio navegador.
+                    Apenas usando a internet a seu favor.</p>
+
+            </div>
+
+        </section>
+
+        <div class="how-to-use" id="how-to-use">
+
+            <h1>Dúvidas</h1>
+            
+            <details>
+
+                <summary>Qual o login de usuário?</summary>
+
+                <p>
+                    O sistema tem um login por <code>padrão</code> não podendo ser trocado.
+                    <br><br>
+                    A chave de acesso é: <code>user@net</code>
+                    <br>
+                    A senha segue como: <code>123</code>
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>Como funciona o sistema?</summary>
+
+                <p>
+                    O sistema utiliza componentes interativos de entrada e saída de produtos, criando cards dos itens
+                    podendo ver <code> nome, quantidade e preço</code> de cada produto registrado de forma individual.
+                </p>
+
+            </details>
+
+            <details>
+
+                <summary>Onde os produtos são salvos?</summary>
+
+                <p>Os produtos são salvos no seu proprio <code>navegador</code> não podendo ser acessado em outra
+                    plataforma</p>
+
+            </details>
+
+        </div>
+
+        <section class="app-site" id="app-site">
+
+            <div class="title-site-app">
+
+                <h1>Comece a usar de forma grátis</h1>
+
+                <p>Se você quiser dar o seu primeiro passo de forma gratuita, sem anúncios, sem mensalidades e de forma
+                    funcional, comece com bol<span>expert</span> <a href="">agora.</a>
+                </p>
+
+                <button onclick="link()">Acesso antecipado</button>
+            </div>
+
+            <img src="img/dataAwork.svg" alt="sem foto">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h2>Bol<span>expert</span></h2>
+
+        <ul>
+            <li>GitHub</li>
+            <li>Contato</li>
+            <li>Mais</li>
+        </ul>
+    </footer>
+</body>
+
+<script>
+
+    function link() {
+
+        window.open("https://bolexpert.netlify.app/", "_blank")
+
+    }
+</script>
+
+</html>
